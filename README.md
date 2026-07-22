@@ -44,28 +44,28 @@ So I started keeping my own list, and this is it — only servers you can actual
 
 ### What earns a place
 
-Three tests, all required. Miss one and it's off the list — no matter how good the tool is.
+A server has to clear three bars. Miss one and it's out, however good it is otherwise.
 
-- **Self-hostable** — you run the server yourself, with no mandatory vendor endpoint in the loop.
-- **Open source** — a real FOSS license; source you can audit before you hand it tool access.
-- **No lock-in** — it doesn't die without a paid proprietary backend, and your data isn't stranded on someone else's servers.
+- **Self-hostable** — you run it, and nothing in the request path has to touch a vendor's servers.
+- **Open source** — a real FOSS license, so you can read the code before you give it access to anything.
+- **No lock-in** — it keeps working without a paid backend, and your data isn't stuck on someone else's box.
 
-**Cut on purpose:** cloud-only servers you can't run yourself, source-available-but-not-OSI projects (e.g. n8n's Sustainable Use License), and open clients that are useless without a paid API. Fine tools — just not open, so not here.
+Plenty gets left out on purpose. Cloud-only servers you can't run. Projects under source-available licenses that aren't really open (n8n's is the usual example). Clients that do nothing until you pay for an API. Mostly good software, just not what I'm collecting here.
 
 ---
 
 ### Red flags
 
-A note in $\textcolor{red}{\textsf{red}}$ marks friction you'll hit before the server earns its place — a fact you can verify on the repo page in seconds:
+Some of these work fine but come with a catch you'll want to know about first. Two of them show up in red, and you can confirm either one on the repo page in a few seconds:
 
 | flag | meaning |
 |---|---|
-| $\textcolor{red}{\textsf{fiddly setup}}$ | needs Docker, a database, or several services running before first use |
-| $\textcolor{red}{\textsf{heavy}}$ | exposes dozens of tools, crowding your context window |
+| $\textcolor{red}{\textsf{fiddly setup}}$ | wants Docker, a database, or a few services running before it does anything |
+| $\textcolor{red}{\textsf{heavy}}$ | throws dozens of tools at the model and eats into your context |
 
 ### New &amp; emerging
 
-A 🌿 marks a server that's **new and gaining traction but still under 500 stars** — promising and worth a look, just younger and less battle-tested than the established entries.
+🌿 means it's newer and still under 500 stars. Often worth a try, just less proven than the ones that have been around a while.
 
 ---
 
