@@ -4,7 +4,7 @@
 
 I kept running into the same thing: I'd find a promising MCP server, wire it up, and only then realize it was just a shell around some company's paid API. Cancel the subscription and it's a brick. Most of the big MCP lists are full of these.
 
-So I started keeping my own list, and this is it — only servers you can actually run yourself. Open source, self-hosted, your data stays on your machine. If a tool only works by calling home to someone else's cloud, it's not here. That's the whole rule, and everything below has been checked against it by hand.
+So I started keeping my own list, and this is it. Only servers you can actually run yourself. Open source, self-hosted, your data stays on your machine. If a tool only works by calling home to someone else's cloud, it's not here. That's the whole rule, and everything below has been checked against it by hand.
 
 ## Contents
 
@@ -46,9 +46,9 @@ So I started keeping my own list, and this is it — only servers you can actual
 
 A server has to clear three bars. Miss one and it's out, however good it is otherwise.
 
-- **Self-hostable** — you run it, and nothing in the request path has to touch a vendor's servers.
-- **Open source** — a real FOSS license, so you can read the code before you give it access to anything.
-- **No lock-in** — it keeps working without a paid backend, and your data isn't stuck on someone else's box.
+- **Self-hostable.** You run it, and nothing in the request path has to touch a vendor's servers.
+- **Open source.** A real FOSS license, so you can read the code before you give it access to anything.
+- **No lock-in.** It keeps working without a paid backend, and your data isn't stuck on someone else's box.
 
 Plenty gets left out on purpose. Cloud-only servers you can't run. Projects under source-available licenses that aren't really open (n8n's is the usual example). Clients that do nothing until you pay for an API. Mostly good software, just not what I'm collecting here.
 
@@ -75,7 +75,7 @@ Some of these work fine but come with a catch you'll want to know about first. T
 - **[Brave Search](https://github.com/brave/brave-search-mcp-server)** · Query Brave's Search, Summarizer, and Local APIs from an MCP server
 - **[Crawl4AI](https://github.com/unclecode/crawl4ai)** · Self-hosted LLM-friendly web crawler and scraper with a built-in Docker MCP bridge exposing crawl, scrape, and markdown-extraction tools · $\textcolor{red}{\textsf{fiddly setup}}$
 - **[DuckDuckGo](https://github.com/nickclyde/duckduckgo-mcp-server)** · Search DuckDuckGo and fetch/parse page content into clean text with no API key needed
-- **[fastCRW](https://github.com/us/crw)** 🌿 · Rust-based self-hostable crawl, scrape, and search server — a keyless Firecrawl/Tavily alternative for agents
+- **[fastCRW](https://github.com/us/crw)** 🌿 · Rust-based self-hostable crawl, scrape, and search server, a keyless Firecrawl/Tavily alternative for agents
 - **[Fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch)** · Official reference MCP server that fetches a URL and converts its content to markdown for LLM consumption
 - **[Hister](https://github.com/asciimoo/hister)** · Indexes your browsing history and local files into a private, full-text search engine reachable over MCP
 - **[Meilisearch](https://github.com/meilisearch/meilisearch-mcp)** · Manage indexes, documents and settings and run searches on a self-hosted Meilisearch instance
